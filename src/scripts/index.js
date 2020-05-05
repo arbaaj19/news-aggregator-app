@@ -46,7 +46,7 @@
                          <li class="article">
                               <img  class="article-img" src="${aimage}" alt="image" style="width:100%" ><br><br>
                               <h2 class="article-title"> ${atitle}</h2><br>
-                              <p class="article-description">${adescription}</p><br>
+                              <p class="article-description">${adescription || "DEscription not available"}</p><br>
                               <span class="article-author" style="display: block;"> ${aauthor}</span><br>
                               <a class="article-link" href="${alink}">link to page </a>
                         </li>    
